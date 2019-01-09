@@ -1,0 +1,86 @@
+footer{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color:rgb(243, 232, 131);
+}
+
+section{
+    padding-top: 5em;
+    padding-bottom: 3em;
+    text-align: center;    
+}
+
+.asignatura{
+    padding: 1em;
+    display: inline-block;
+    background-color: rgb(243, 232, 131);
+
+}
+
+.asignatura:hover{
+    background-color: #f3cc83;
+}
+
+.asignatura a p{
+    margin-bottom: 2vh;
+    color: rgb(39, 24, 180);
+}
+.asignatura img{
+    display: inline-block;
+    top: auto;
+    left: auto;
+    height: 6em;
+
+}
+
+section > h3{
+    padding: 0.2em;
+    width: 14em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d1f383;
+    border:solid;
+    border-color: #000000;
+
+}
+
+#intermedia{
+    text-decoration: none;
+    color: #000000;  
+    background-color: rgb(243, 232, 131);
+    padding: 1em;
+    border: solid;
+}
+
+#intermedia:hover{
+    background-color: #f3cc83;
+}
+
+section ul li{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    background-color: rgb(243, 232, 131);
+    list-style-type: none;
+    border: solid;
+    width: 7em;
+}
+section ul li:hover{
+    background-color: #f3cc83;
+}
+
+header{
+    color: rgb(39, 24, 180);
+    font-size: 1.5em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color:rgb(243, 232, 131);
+}
+
+header p{
+    margin-left: 2em;
+    margin-top: 0.2em;
+}
