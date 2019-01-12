@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=es>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>José Mª Romero Ruiz</title>
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="José Mª Romero Ruiz">
+        <script src="codigo.js" type="text/javascript"></script>
+    </head>
+
+<body>
+    <noscript>
+        <h1>Se requiere javascript</h1>
+    </noscript>
+
+    <h2>Ejercicio 6 - José Mª Romero Ruiz</h2>
+
+    <b>Mediante ejemplos, indica valores y utilidad de lastMatch en una expresión regular. 
+            ¿Funciona en todos los navegadores?
+        </b>
+    
+        <p>let string = "Neque porro quisquam es que dolorem ipsum quia dolor sit amet, consectetur, adipisci velit";</p>
+        <p>let expresion = new RegExp("is","m");</p>
+    
+        <p>RegExp.lastMatch + " en el índice: " + expresion.lastIndex</p>
+        <ul>
+            <li>tri en el índice: 16</li>
+            <li>tri en el índice: 82</li>
+            <li>tri en el índice: 95</li>
+        </ul>
+    
+        <b>La propiedad lastMatch son los últimos caracteres coincidentes. Todos los navegadores</b>
+        <p id="lastMatch"></p>
+    <section id="botones">
+        <a href="../index.html"><button id="atras">Atras</button></a>
+        <a href="../../../../index.html"><button id="inicio">Inicio</button></a>
+    </section>
+</body>
+
+</html>
