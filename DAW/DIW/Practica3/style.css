@@ -1,0 +1,17 @@
+a img:first-child{
+    width: 40px;
+}
+
+.carousel-inner img{
+    width: 200px;
+    height: 200px;
+}
+
+#carouselExampleIndicators{
+    width: 200px;
+    height: 300px;
+}
+
+body{
+    text-align: center;
+}
