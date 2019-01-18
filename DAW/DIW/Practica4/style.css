@@ -1,0 +1,13 @@
+#canvas1 { 
+    width: 100px; 
+    height: 100px; 
+    background: rgb(209, 86, 86); 
+    position: relative; 
+    animation: animation-duration infinite; 
+    animation-duration: 10s; 
+    } 
+    
+    @keyframes animation-duration { 
+    from {left: 0px;} 
+    to {left: 800px;} 
+    }

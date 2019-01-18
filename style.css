@@ -113,7 +113,12 @@ header{
     background-color:var(--main-bg-color);
 }
 
+#path{
+    display: inline;
+}
+
 header p{
+    display: inline;
     margin-left: 2em;
-    margin-top: 0.2em;
+
 }

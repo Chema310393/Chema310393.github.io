@@ -1,0 +1,25 @@
+nav{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #007bff;
+}
+
+#content{
+    padding-top: 6%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#content table{
+    margin: 2rem auto;
+}
+
+footer div{
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #007bff;
+}

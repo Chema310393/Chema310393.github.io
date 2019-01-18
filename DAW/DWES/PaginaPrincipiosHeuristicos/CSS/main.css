@@ -1,0 +1,31 @@
+body{
+    background-color: #8E9AAF
+}
+header{
+    text-align: center;
+    color: #FAFAFF;  
+    font-size: 150%    
+}
+
+main div{
+    width: 100%;
+    background: #E4D9FF;
+    display: inline-block;
+
+    margin-bottom: 2%;
+}
+main div div{
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 13%;    
+    margin: 20px;
+    background: #273469;
+    color: #CBC0D3;
+    font-size: 150%;
+    
+}
+
+#titulo{
+    color: #FAFAFF;
+    font-size: 150%;
+}
