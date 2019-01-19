@@ -58,9 +58,13 @@ main{
     flex-direction: row;
 }
 
+main section{
+    max-width: 90%;
+}
 main section article{
     border: solid;
     margin: 3%;
+
 }
 
 main section article div{
