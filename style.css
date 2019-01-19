@@ -86,11 +86,13 @@ section > h3{
     border: solid;
 }
 
-
+section ul{
+    column-count: 3;
+}
 
 section ul li{   
     color: var(--main-text-color);  
-    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     padding: 0.5em;
     background-color: var(--main-bg-color);
     list-style-type: none;
@@ -98,9 +100,9 @@ section ul li{
     width: fit-content;
     min-width: 7em;
     max-width: 15em;
+    break-inside: avoid-column;
 }
-section ul li:hover{
-    
+section ul li:hover{    
     background-color: var(--hover-color);
 }
 
