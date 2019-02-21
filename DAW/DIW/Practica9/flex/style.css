@@ -1,0 +1,173 @@
+/**Constantes*/
+:root{
+    --topbot:#944397;
+    --topbot-text:#FFFFFF;
+    --enlace: #F2F6D0;
+    --enlace-hover:#E4BE9E;
+    --section:#D0E1D4;
+    --medidaCuadrado:70px;
+}
+/**Constantes*/
+
+/**Body**/
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#publicidad h2, footer h1, header h1{
+    text-align: center;
+}
+
+/**Header**/
+
+nav{  
+    background-color: var(--topbot);
+    color: var(--topbot-text);
+    padding-top: 7px;
+    height: 50px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul>li, nav ul>a {   
+    min-width: fit-content;
+    margin-right: 5%;
+    border: solid;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: var(--enlace);
+}
+
+nav ul a:hover{
+    text-decoration: none;
+    color: var(--enlace-hover);
+}
+
+
+/**Main**/
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+main #secciones{
+    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+main section{
+    flex: 1;
+    min-width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid;
+    background-color: var(--section);
+}
+
+#seccion1{
+    font-size: 20px;
+}
+
+#seccion2{
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+#seccion3{
+    margin: 5px;
+    font-size: 15px;
+    text-align:justify;
+}
+
+/**Aside**/
+
+aside{    
+    border: solid;
+    min-width: 15%;
+    max-width: 25%;
+}
+
+#archivo{
+    background-color: var(--section);
+    border: solid;
+    margin: 2%;
+    width: fit-content;
+
+}
+
+#checkboxes{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+#checkboxes p{
+    margin-right: 20%;
+}
+
+#publicidad{
+    background-color: var(--section);
+    margin: 2%;
+    border: solid;
+  
+}
+
+#cuadrados{
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+
+}
+
+.cuadrado{
+    border: solid;
+    width: var(--medidaCuadrado);
+    height: var(--medidaCuadrado);
+    background-color: #FFFFFF;
+    margin-bottom: 15pt;
+}
+
+
+/**Footer**/
+
+footer{  
+    background-color: var(--topbot);
+    color: var(--topbot-text);
+    display: flex;
+    flex-direction: column;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer h2{
+    margin-left: 5%;
+}
+
+i{
+    font-size: 60px;
+}

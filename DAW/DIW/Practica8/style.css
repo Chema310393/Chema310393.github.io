@@ -1,0 +1,43 @@
+nav{
+    margin-left: 200px;
+}
+
+nav ul {    
+    list-style: none;
+    padding: 2px;
+}
+
+nav > ul > li{
+    display: inline-block;
+    background-color: rgb(109, 4, 4);
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    width: 80px;
+}
+
+nav ul li{
+    position: relative;
+    margin: 3px;  
+    padding: 4px;  
+    background-color: rgb(109, 4, 4);
+}
+
+nav ul li ul{
+    margin: 3px; 
+    position: absolute;
+    display: none;
+    width: 200px;
+}
+
+nav ul li ul li ul{
+    right: -210px;
+    top: -2.7px;
+}
+
+nav ul li:hover{
+    background-color: brown;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}

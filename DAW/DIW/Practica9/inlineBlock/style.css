@@ -1,0 +1,158 @@
+/**Colores*/
+:root{
+    --topbot:#944397;
+    --topbot-text:#FFFFFF;
+    --enlace: #F2F6D0;
+    --enlace-hover:#E4BE9E;
+    --section:#D0E1D4;
+
+}
+/**Colores*/
+
+
+header{
+    display: block;
+}
+
+nav{  
+    background-color: var(--topbot);
+    color: var(--topbot-text);
+    padding-top: 15px;
+    height: 50px;
+
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li{
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline;
+    border: solid;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: var(--enlace);
+}
+
+nav ul a:hover{
+    text-decoration: none;
+    color: var(--enlace-hover);
+}
+
+main{
+    border-top: solid;
+    border-bottom: solid;
+
+}
+
+#secciones{
+    width: 79%;
+    height: 625px;
+    border-right: solid;
+}
+
+aside{
+    width: 20%;
+}
+
+#secciones, aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#secciones > section{
+    border: solid;
+    width: 400px;
+    height: 280px;
+    margin: 1%;
+    margin-left: 3%;
+    display: inline-block;
+    background-color: var(--section);
+}
+
+.cuadrado{
+    margin-left: 35px;
+    margin-right: 30px;
+    border: solid;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: #FFFFFF;
+}
+
+#archivo{
+    margin-top: 17px;
+    margin-left: 4%;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    border: solid;
+    display: inline-block;    
+    background-color: var(--section);
+}
+
+#checkboxes{
+    width:350px;
+    height:220px;
+}
+
+#checkboxes p{  
+    margin-left: 25px;  
+    display: inline-block;
+    width: 145px;
+}
+
+#archivo h2, #publicidad h2, footer h1, header h1{
+    text-align: center;
+}
+
+footer{
+    padding-top: 20px;
+    background-color: var(--topbot);
+    color: var(--topbot-text);
+}
+
+footer section *{
+    display: inline;
+    margin: 0.5%;
+}
+
+footer section div{
+    margin-left: 60%;
+    margin-right: 25px;
+}
+
+#publicidad{
+    background-color: var(--section);
+    margin-left: 4%;
+    margin-right: auto;
+    margin-bottom: 35px;
+    border: solid;
+}
+
+#seccion1{
+    font-size: 30px;
+}
+
+#seccion2{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#seccion3{
+    margin: 5px;
+    text-align:justify;
+}
+
+i{
+    font-size: 60px;
+}

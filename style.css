@@ -77,7 +77,12 @@ section > h3{
     margin-right: auto;
 }
 
+#contenedorIntermedio{
+    column-count: 2;
+}
+
 #intermedia{
+
     display: inline-block;
     text-decoration: none;
     color: var(--main-text-color);  
