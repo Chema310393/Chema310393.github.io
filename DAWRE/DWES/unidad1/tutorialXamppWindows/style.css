@@ -1,0 +1,21 @@
+img{
+    width: 400px;
+    margin: 5px;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.paso{
+    margin: 10px;
+    border: solid #586F7C;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+}
